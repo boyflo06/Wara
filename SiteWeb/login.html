@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <header>
+        <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" class="header-wave">
+            <defs></defs>
+            <path fill="#6c8492" fill-opacity="1" d="M 0 25.769 L 80 17.892 C 160 10.309 320 -5.887 480 2.211 C 640 10.309 800 41.227 960 45.423 C 1120 49.326 1280 25.769 1360 13.99 L 1440 2.211 L 1440 120 L 1360 120 C 1280 120 1120 120 960 120 C 800 120 640 120 480 120 C 320 120 160 120 80 120 L 0 120 L 0 25.769 Z" transform="matrix(-1, 0, 0, -1, 1440, 120.000347)"></path>
+        </svg> 
+        <section class="header-top">
+            <a href="main.html" class="hidden-link">
+                <div class="header-top-side">
+                    <img src="assets/logo.png" class="logo">
+                    <p class="title">WARA</p>
+                </div>
+            </a>
+            <div class="header-top-side">
+                <a class="hidden-link header-link">How it Works</a>
+                <a class="hidden-link header-link">About Us</a>
+                <a class="hidden-link header-link">Shop</a>
+                <a class="hidden-link header-link login" href="login.html">login</a>
+            </div>
+        </section>
+    </header>
+    <section class="login-box">
+        <h1 class="text heading">LOG IN</h1>
+        <div class="above-input">
+            <p class="text desc">Username</p>
+            <div class="sign-up-prompt">
+                <a class="text hidden-link" href="/register.html" style="color: black;">Need an account? <span style="color: #628EB1;">Sign up</span></a>
+            </div>
+        </div>
+        <input type="text" class="input" style="margin-bottom: 20px;">
+        <div class="above-input">
+            <p class="text desc">Password</p>
+            <button class="pswrd-button" onClick="pswrd()">
+                <p class="text" id="eyeText">show</p>
+                <img src="/assets/eye-open.svg" class="eye" id="eye">
+            </button>
+        </div>
+        <input type="password" class="input" id="pswrd-input">
+        <a class="text" style="margin: 20px 0px 30px 0px;">forgot password?</a>
+        <div class="submit-area">
+            <button class="submit">Log In</button>
+        </div>
+    </section>
+    <script src="/js/login.js"></script>
+</body>
+</html>

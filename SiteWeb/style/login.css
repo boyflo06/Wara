@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    margin: 0; padding: 0;
+    background: url(/assets/login-bg.svg);
+    background-size: 100%;
+}
+
+.login-box {
+    background-color: #EFEEF1;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 30px;
+    border: solid 2px #BDC9CF;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+.input {
+    height: 40px; width: 350px;
+    border: solid 2px #BDC9CF;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.above-input {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.pswrd-button {
+    display: flex;
+    border: none;
+    align-items: center;
+}
+
+.eye {
+    width: 17px;
+    margin-left: 3px;
+}
+
+.submit {
+    background-color: #628EB1;
+    height: 40px;
+    border-radius: 40px;
+    width: 330px;
+}
+
+.submit-area {
+    display: flex;
+    justify-content: center;
+}
